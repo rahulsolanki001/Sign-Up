@@ -1,0 +1,22 @@
+#msg{
+    display: hidden;
+}
+.msg-container{
+    width: 30vw;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    background-color: rgba(100,100,140,0.9);
+    padding: 0.1rem;
+    border-radius: 5px;
+    
+}
+
+.msg-container p{
+    color: white;
+    
+}
+
+#close-msg{
+    float: right;
+    margin-right: 0.5rem;
+}

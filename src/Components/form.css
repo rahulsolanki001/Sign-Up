@@ -1,0 +1,140 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button{
+    border: 2px solid  #5832dd;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #sign-button{
+    width: 8vw;
+    color: #5832dd;
+    padding-top: 0.5ch;
+    padding-bottom: 0.5ch;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 2.5rem;
+    margin-left: 90%;
+    transition: all 0.2s;
+  }
+
+  #sign-button:hover{
+    color: #fff;
+    background-color: #5832dd;
+  }
+  
+  .sign-up-form-container{
+    margin-top: 4rem;
+  }
+  
+  .sign-up-form-container h1,p {
+    color: #5832dd;
+    margin-bottom: 0%;
+    margin-top: 0.5rem;
+  }
+  
+  .sign-up-form-container h1{
+    font-size: 42px;
+  }
+  .sign-up-form-container p{
+   font-weight: 600;
+   margin-left: 1.1rem;
+   
+  }
+  
+  form{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  form .name-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  form input{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    padding: 0.7rem;
+    outline: none;
+    border: 1.5px solid gray;
+    border-radius: 5px;
+  }
+  
+  form input:active,input:focus{
+    border-color: #5832dd;
+    border-width: 2px;
+    
+  }
+  
+  form input::placeholder{
+    font-weight: 600
+  }
+  
+  #submit{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    padding:1rem;
+    color: #fff;
+    background-color: #5832dd;
+    border: 1px solid transparent;
+    font-weight: 600;
+  }
+
+
+
+/* media query for mobiles */
+@media screen and (max-width:450px) {
+  #sign-button{
+    width: 40vw;
+    margin-top: 85%;
+    margin-left: 0%;
+    margin-right: 20%;
+  }
+
+  .sign-up-form-container{
+    width: 100vw;
+    text-align: left;
+    margin-left: 0ch;
+  }
+
+  .sign-up-form-container h1{
+    font-size: 24px;
+    margin-right: 10%;
+  }
+
+  .sign-up-form-container p{
+    font-size: 14px;
+  }
+  form .name-input{
+    flex-direction: column;
+  }
+
+  form input{
+    width: 85vw;
+    margin-left: 0ch;
+  }
+
+  #submit{
+    width: 85vw;
+    margin-left: 0ch;
+  }
+}
+
+/* media query for tablet & laptop(small) */
+@media screen and (min-width:500px) and (max-width:1050px) {
+  #sign-button{
+    width: 10vw;
+  }
+
+  .sign-up-form-container{
+    width: 50vw;
+  }
+  
+}
